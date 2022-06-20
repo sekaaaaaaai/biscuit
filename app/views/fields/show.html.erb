@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @field.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @field.address %>
+</p>
+
+<p>
+  <strong>Width:</strong>
+  <%= @field.width %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @field.height %>
+</p>
+
+<%= link_to 'Edit', edit_field_path(@field) %> |
+<%= link_to 'Back', fields_path %>
